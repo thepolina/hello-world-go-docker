@@ -10,5 +10,5 @@ run in docker
 
 ```
 docker build . -t hello-world
-docker run -ti -p 3333:3000 hello-world
+docker run --rm -p 3000:3333 hello-world
 ```
